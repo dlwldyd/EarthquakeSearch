@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Earthquake</string>
+    <string name="earthquake_feed">
+        https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.atom
+    </string>
+    <string name="menu_update">새로고침</string>
+    <string name="auto_update_prompt">자동 새로고침 사용</string>
+    <string name="update_freq_prompt">새로고침 주기 설정하기</string>
+    <string name="min_quake_mag_prompt">최소 진도 설정하기</string>
+    <string name="menu_settings">설정</string>
+    <string name="search_label">검색</string>
+    <string name="search_hint">지역명을 입력하세요</string>
+</resources>

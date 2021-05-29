@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <SwitchPreference
+        android:key="PREF_AUTO_UPDATE"
+        android:title="@string/auto_update_prompt"
+        android:summary="지진 데이터가 일정 시간마다 자동으로 업데이트 됩니다."
+        android:defaultValue="true"/>
+    <ListPreference
+        android:key="PREF_UPDATE_FREQ"
+        android:title="@string/update_freq_prompt"
+        android:summary="지진 데이터 업데이트 주기를 설정할 수 있습니다."
+        android:entries="@array/update_freq_options"
+        android:entryValues="@array/update_freq_values"
+        android:dialogTitle="새로고침 주기"
+        android:defaultValue="60"/>
+    <ListPreference
+        android:key="PREF_MIN_MAG"
+        android:title="@string/min_quake_mag_prompt"
+        android:summary="디스플레이에 표시할 최소 진도를 설정할 수 있습니다."
+        android:entries="@array/magnitude_options"
+        android:entryValues="@array/magnitude_values"
+        android:dialogTitle="진도"
+        android:defaultValue="3"/>
+</PreferenceScreen>
